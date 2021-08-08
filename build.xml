@@ -16,7 +16,7 @@
 
 	<!-- Define the classpath which includes the junit.jar and the classes after compiling-->
 	<path id="junit.class.path">
-		<pathelement location="lib/junit-4.13.2.jar" />
+		<pathelement location="junit-4.13.2.jar" />
 		<pathelement location="lib/hamcrest-core-1.3.jar" />
 		<pathelement location="${build.dir}" />
 	</path>
@@ -41,7 +41,7 @@
 			<classpath refid="junit.class.path" />
 		</javac>
 
-		<javac srcdir="${test.dir}" destdir="${build.test.dir}">
+		<javac includeantruntime="false" srcdir="${test.dir}" destdir="${build.test.dir}">
 			<classpath refid="junit.class.path" />
 		</javac>
 
