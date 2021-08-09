@@ -2,7 +2,7 @@
 <project name="JUNIT" default="main" basedir="">
 
 	<property name="src.dir" location="src" />
-	<property name="test.dir" location="src/calc/" />
+	<property name="test.dir" location="src/calc" />
 
 	<property name="build.dir" location="bin" />
 	<property name="build.test.dir" location="bin/tests" />
@@ -10,7 +10,7 @@
 
 	<path id="junit.class.path">
 		<pathelement location="junit-4.13.2.jar" />
-		<pathelement location="hamcrest.core-1.3.jar" />
+		<pathelement location="hamcrest-2.2.jar" />
 		<pathelement location="${build.dir}" />
 		<pathelement location="${test.dir}" />
 	</path>
