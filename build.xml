@@ -45,7 +45,7 @@
 			<classpath>
 			    <pathelement location="${build.test.dir}"/>
 				<pathelement path="${test.dir}"/>
-			  </classpath>
+			</classpath>
 			<formatter type="xml" />
 			<batchtest todir="${test.report.dir}" fork="yes">
 				<fileset dir="${test.dir}">

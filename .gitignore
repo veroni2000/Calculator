@@ -3,3 +3,12 @@ bin/calc/Calculator.class
 bin/calc/CalculatorTest.class
 bin/tests/calc/Calculator.class
 bin/tests/calc/CalculatorTest.class
+.idea/ant.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+junit2172687704487854244.properties
+junitvmwatcher9432439154480962137.properties
+testreport/TEST-CalculatorTest.xml
+testreport/TEST-CalculatorTest.xml
+testreport/TEST-CalculatorTest.xml
